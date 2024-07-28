@@ -3,7 +3,7 @@ package _05_FunctionsAndMethods;
 import java.util.Scanner;
 
 public class _01_FunctionParameters {
-    public static int sum(int var_1, int var_2) {
+    public static int sum(int var_1, int var_2) { // formal parameters or parameters
         return (var_1 + var_2);
     }
 
@@ -13,7 +13,7 @@ public class _01_FunctionParameters {
             int var_1 = scn.nextInt();
             int var_2 = scn.nextInt();
 
-            int result = sum(var_1, var_2);
+            int result = sum(var_1, var_2);// arguments or actual parameters
             System.out.println("Sum is:" + result);
         }
     }
