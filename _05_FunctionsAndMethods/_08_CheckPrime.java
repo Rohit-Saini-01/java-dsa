@@ -7,7 +7,7 @@ public class _08_CheckPrime {
         if (n == 1) {
             return false;
         }
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }
@@ -16,6 +16,6 @@ public class _08_CheckPrime {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(2));
+        System.out.println(isPrime(6));
     }
 }
